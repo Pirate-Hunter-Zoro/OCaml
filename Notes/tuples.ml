@@ -5,7 +5,9 @@ let t : time = (10, 10, "am")
 type point = float * float
 let p : point = (5., 3.5)
 
+(* For pairs only *)
 (*
   fst p;; FIRST COMPONENT
-  lst p;; SECOND COMPONENT
+  snd p;; SECOND COMPONENT
 *)
+
